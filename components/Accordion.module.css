@@ -10,19 +10,22 @@ MAIN: #087f5b
 GRAY COLOR: #343a40
 */
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Inter', sans-serif;  
-  color: #343a40;
+.accordion {
+    max-width: 800px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.item {
+
 }
 
-* {
-  box-sizing: border-box;
+.number {
+
+}
+
+.text {
+
+}
+
+.hiddenBox {
+
 }
