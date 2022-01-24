@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Accordion from "../components/accordion";
+import Carousel from "../components/Carousel";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
                 </h1>
 
                 <section className={styles.section}>
-                    <Accordion />
+                    <Carousel />
                 </section>
                 
             </main>

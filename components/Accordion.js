@@ -19,8 +19,8 @@ const Accordion = () => {
 
     return (
         <>
-            <h2>Accordion</h2>
             <div className={styles.accordion}>
+            <h2>Accordion</h2>
                 <motion.div
                     layout
                     className={
