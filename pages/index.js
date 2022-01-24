@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Accordion from "../components/accordion";
 import Carousel from "../components/Carousel";
+import Table from "../components/Table";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -24,9 +25,17 @@ export default function Home() {
                 <h1 className={styles.title}>
                     Some React Components!
                 </h1>
+                
+                <section className={styles.section}>
+                    <Table />
+                </section>
 
                 <section className={styles.section}>
                     <Carousel />
+                </section>
+
+                <section className={styles.section}>
+                    <Accordion />
                 </section>
                 
             </main>
