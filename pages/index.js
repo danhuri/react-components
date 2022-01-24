@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Accordion from "../components/accordion";
 import Carousel from "../components/Carousel";
+import Hero from "../components/Hero";
 import Table from "../components/Table";
 import styles from "../styles/Home.module.css";
 
@@ -18,10 +19,14 @@ export default function Home() {
                 <link
                     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
                     rel="stylesheet"
-                />
+                />                
+                <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet" />
             </Head>
 
-            <main className={styles.main}>
+            <Hero />
+
+            <main className={styles.main}>           
+
                 <h1 className={styles.title}>
                     Some React Components!
                 </h1>

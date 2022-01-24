@@ -1,0 +1,85 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR SYSTEM
+MAIN: #087f5b
+GRAY COLOR: #343a40
+*/
+.header {
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    background-color: green;
+    /* A MARAVILHOSA NOVA UNIDADE CSS vh = VIEWPORT HEIGHT */
+    height: 100vh; /* 100% DA ALTURA DA VIEW PORT DISPONIVEL */
+    position: relative;
+
+    
+    /* MAKING A STACK OF BACKGROUND 'IMAGES' FOR MAKING THE DARK OVERLAY OVER THE ORIGINAL IMAGE */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.2)), url(/images/hero.jpg);
+    /* COVER TO ADJUST THE IMAGE TO THE VIEWPORT SIZE */
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.centered {    
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerContainerInner {
+    width: 50%;
+}
+
+.navigation {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.header h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    letter-spacing: -2px;
+    line-height: 1.05;
+}
+
+.header p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+
+.section {
+    margin: 96px 0;
+    background-color: #f7f7f7;
+}
+
+.section h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+}
